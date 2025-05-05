@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Creative Designer | Design Services</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="icon" type="image/png" href="S (5).png">
+  
+</head>
+<body>
+
+  <a href="https://wa.link/94l6q6" class="whatsapp-float" target="_blank">
+    <img src="R.png" alt="Chat on WhatsApp">
+  </a>
+
+  <header>
+    <div class="container">
+      <div class="logo-title">
+        <img src="S (5).png" alt="Creative Designer Logo" class="logo">
+        <h1>Creative Designer</h1>
+      </div>
+      
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#order">Order</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>Professional Poster, Logo & Ad Designs</h1>
+      <p>Creative, Fast, and Reliable. Let's build your brand!</p>
+      <a href="#order" class="btn">Order Now</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a professional graphic designer using Photoshop, Canva, and CorelDRAW. I specialize in creating posters, logos, and ads that capture attention and grow businesses!</p>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Services</h2>
+      <div class="service-cards">
+        <div class="card">
+          <h3>Poster Design</h3>
+          <p>Eye-catching posters for your events and promotions.</p>
+        </div>
+        <div class="card">
+          <h3>Logo Design</h3>
+          <p>Memorable logos that reflect your brand’s identity.</p>
+        </div>
+        <div class="card">
+          <h3>Ad Design</h3>
+          <p>Creative advertisements for online and offline marketing.</p>
+        </div>
+        <div class="card">
+          <h3>V.Card Design</h3>
+          <p>Stylish visiting cards that leave a lasting impression on your clients.</p>
+        </div>
+        <div class="card">
+          <h3>Web Design & Development</h3>
+          <p>Beautiful and functional websites tailored to your brand.</p>
+        </div>
+        <div class="card">
+          <h3>Invitation</h3>
+          <p>Elegant and personalized invitations for any occasion.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="gallery">
+        <img src="Untitled (1080 x 1350 px).png" alt="Sample Work 1">
+        <img src="Untitled-2 (3).png" alt="Sample Work 2">
+  
+      </div>
+      <br>
+      <div class="logo-gallery">
+        <div class="logo-card main-logo" onclick="openBookAnimation()">
+          <img src="S (5).png" alt="Sample Logo">
+          <p>Click to Open</p>
+        </div>
+        
+        <div class="logo-card hidden-logos">
+          <img src="sada123.png" alt="Logo 2">
+        </div>
+        <div class="logo-card hidden-logos">
+          <img src="u (3).png" alt="Logo 3">
+        </div>
+        <div class="logo-card hidden-logos">
+          <img src="WhatsApp Image 2024-10-19 at 23.24.58.jpeg" alt="Logo 4">
+        </div>
+        <div class="logo-card hidden-logos">
+          <img src="Green and White Modern Real Estate Property Logo (3).png" alt="Logo 5">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="order" class="order">
+    <div class="container">
+      <h2>Place Your Order</h2>
+ 
+      <form id="orderForm" action="https://formspree.io/f/xqaqpvjv" method="POST" enctype="multipart/form-data">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+      
+        <select name="service" required>
+          <option value="">Select Service</option>
+          <option value="Poster Design">Poster Design</option>
+          <option value="Logo Design">Logo Design</option>
+          <option value="Ad Design">Ad Design</option>
+          <option value="V.Card Design">V.Card Design</option>
+          <option value="Web Design & Development">Web Design & Development</option>
+          <option value="Invitation">Invitation</option>
+        </select>
+        
+      
+        <textarea name="details" placeholder="Describe your project..." required></textarea>
+      
+        <label for="file">Upload Reference File (optional):</label>
+        <input type="file" name="attachment" id="file" accept=".jpg,.jpeg,.png,.pdf,.ai,.psd">
+      
+        <button type="submit" class="btn">Submit Order</button>
+      </form>
+      
+      
+      
+      
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email:<a href="mailto:sadacreations11@gmail.com?subject=Hello&body=I want to chat with you" target="_blank">sadacreations11@gmail.com</a>
+      </p>
+      <p>WhatsApp: <a href="https://wa.link/94l6q6" target="_blank">+94786516761</a></p>
+      <p>Facebook:<a href="https://www.facebook.com/share/19waAyPWiB/?mibextid=qi2Omg" target="_blank"> @SADA creation</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Creative Designer. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    ScrollReveal().reveal('section', {
+      duration: 1000,
+      origin: 'bottom',
+      distance: '50px',
+      reset: true
+    });
+  </script>
+  <script>
+    const form = document.getElementById('orderForm');
+  
+    form.addEventListener('submit', async function(event) {
+      event.preventDefault(); // stop form from redirecting
+  
+      const formData = new FormData(form);
+  
+      try {
+        const response = await fetch(form.action, {
+          method: form.method,
+          body: formData,
+          headers: {
+            'Accept': 'application/json'
+          }
+        });
+  
+        if (response.ok) {
+          form.innerHTML = `
+            <h3>Thank you! Your order has been submitted.</h3>
+            <button onclick="location.reload()" class="btn">Refresh</button>
+          `;
+        } else {
+          form.innerHTML = `
+            <h3>Oops! Something went wrong. Please try again.</h3>
+            <button onclick="location.reload()" class="btn">Refresh</button>
+          `;
+        }
+      } catch (error) {
+        form.innerHTML = `
+          <h3>Oops! Something went wrong. Please try again.</h3>
+          <button onclick="location.reload()" class="btn">Refresh</button>
+        `;
+      }
+    });
+  </script>
+  
+
+</body>
+</html>
+<script>
+  function openBookAnimation() {
+    const mainLogo = document.querySelector('.main-logo');
+    const hiddenLogos = document.querySelectorAll('.hidden-logos');
+
+    mainLogo.classList.add('animate-open');
+
+    setTimeout(() => {
+      hiddenLogos.forEach((logo, index) => {
+        setTimeout(() => {
+          logo.style.display = 'flex';
+          logo.style.animation = 'fadeIn 0.5s ease forwards';
+        }, index * 300);
+      });
+    }, 1000); // Wait until openBook animation ends
+  }
+</script>
